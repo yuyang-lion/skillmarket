@@ -1,30 +1,56 @@
+<div align="center">
+
 # skill-study
+
+**Learn Agent Skills faster. Write better `SKILL.md` files. Publish reusable skills with clearer triggers.**
 
 English | [中文](#中文说明)
 
-> Learn Agent Skills faster. Design better `SKILL.md` files. Ship reusable skills with clearer triggers.
+</div>
 
-`skill-study` is a reusable Agent Skill for learning Agent Skills, comparing them with adjacent concepts, and drafting better `SKILL.md` files.
+## Banner
 
-## Hero
+`skill-study` is a reusable Agent Skill for understanding Agent Skills, comparing them with nearby concepts, and drafting stronger `SKILL.md` files for real-world use.
 
-**A reusable skill for understanding, designing, and refining Agent Skills**
+It is built for people who want to turn scattered know-how into reusable agent guidance.
 
-`skill-study` helps individuals and teams turn scattered know-how into reusable skill instructions. It is designed for discovery, explanation, and skill authoring, with practical guidance on triggers, structure, and publishing.
+### What You Get
 
-### Why It Matters
+- A reusable skill for learning, designing, and refining Agent Skills
+- Clear guidance on `description`, trigger conditions, structure, and scope
+- Practical comparison between Skills, MCP, workflows, and `CLAUDE.md`
+- A GitHub-ready example of how to package and publish a skill
 
-- Turns abstract Agent Skill concepts into clear, reusable guidance
-- Helps write stronger `description` fields for more reliable triggering
-- Explains how Skills differ from MCP, workflows, and `CLAUDE.md`
-- Supports both learning and production-ready skill authoring
-
-### Best For
+### Built For
 
 - product managers documenting agent capabilities
 - builders creating reusable skills for teams or open source
 - users learning when to use Skills instead of MCP or workflows
-- authors refining trigger conditions and instruction quality
+- authors improving trigger precision and instruction quality
+
+### Quick Start
+
+Project scope:
+
+```bash
+mkdir -p .trae/skills/skill-study
+cp SKILL.md .trae/skills/skill-study/SKILL.md
+```
+
+User scope:
+
+```bash
+mkdir -p ~/.trae/skills/skill-study
+cp SKILL.md ~/.trae/skills/skill-study/SKILL.md
+```
+
+### Explore
+
+- Read the skill: [SKILL.md](file:///Users/fanfan/Documents/trae_projects/skill/skill-study/SKILL.md)
+- See release notes: [CHANGELOG.md](file:///Users/fanfan/Documents/trae_projects/skill/skill-study/CHANGELOG.md)
+- Copy release copy: [RELEASE_v1.0.0.md](file:///Users/fanfan/Documents/trae_projects/skill/skill-study/RELEASE_v1.0.0.md)
+
+## Use Cases
 
 It helps users:
 
@@ -135,11 +161,18 @@ See [CHANGELOG.md](file:///Users/fanfan/Documents/trae_projects/skill/skill-stud
 
 `skill-study` 是一个可复用的 Agent Skill，用于学习 Agent Skills，并帮助编写或优化 `SKILL.md`。
 
-## 产品简介
+## 首页介绍
 
 **一个用于学习、设计和优化 Agent Skill 的可复用能力包**
 
 `skill-study` 适合把零散的 Agent 经验整理成更清晰、更容易复用的 skill 文档。它既能帮助理解 Agent Skills，也能帮助产出更适合团队协作和公开发布的 `SKILL.md`。
+
+### 你可以得到
+
+- 一个用于学习、设计和优化 Agent Skill 的可复用模板
+- 关于 `description`、触发条件、结构和边界的清晰指引
+- Skill、MCP、工作流和 `CLAUDE.md` 的实用对比
+- 一套适合 GitHub 发布和分享的仓库组织方式
 
 ### 为什么有价值
 
@@ -169,7 +202,7 @@ See [CHANGELOG.md](file:///Users/fanfan/Documents/trae_projects/skill/skill-stud
 - 创建：把流程、规范或重复任务整理成可复用 skill
 - 优化：提升描述、结构和触发命中率
 
-## 安装方式
+## 快速安装
 
 ### 项目级安装
 
