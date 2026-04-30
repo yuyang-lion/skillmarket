@@ -70,6 +70,20 @@ If you want better GitHub discoverability, add topics like:
 - `skill-market`
 - `trae`
 
+## Suggested GitHub About Text
+
+Short description:
+
+```text
+A reusable Agent Skill for learning Agent Skills and drafting better SKILL.md files.
+```
+
+Optional Chinese description:
+
+```text
+一个用于学习 Agent Skills 并帮助编写更好 SKILL.md 的可复用 skill。
+```
+
 ## Release Notes
 
 See [CHANGELOG.md](file:///Users/fanfan/Documents/trae_projects/skill/skill-study/CHANGELOG.md) for the current release history.
